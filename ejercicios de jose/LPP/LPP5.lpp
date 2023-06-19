@@ -1,0 +1,19 @@
+entero lado1,lado2,total2,total3
+
+inicio
+
+escriba "Bienvenido al calculo del area y perimetro del cuadro"
+llamar nueva_linea
+escriba "Escribe la base del rectangulo: "
+lea lado1
+llamar nueva_linea
+escriba "Ëscribe la altura del rectangulo: "
+lea lado2
+llamar nueva_linea
+total2 <- (lado1 + lado2)+(lado1+lado2)
+total3 <- lado1 * lado2
+llamar nueva_linea
+escriba "El perimetro dek rectangulo es de: ",total2," ","y el area del rectangulo es de: ",total3
+
+
+fin

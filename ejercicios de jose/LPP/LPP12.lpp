@@ -1,0 +1,21 @@
+cadena [30] correo, password 
+
+inicio 
+
+escriba "Ingrese su correo electronico"
+llamar nueva_linea
+lea correo 
+llamar nueva_linea 
+
+escriba "Ingrese su contraseña"
+llamar nueva_linea 
+lea password
+llamar nueva_linea
+
+si (correo = fund@gmail.com && password = 123456){
+	escriba "Bienvenidos a fundamentos de programación"
+	} no{
+	escriba "Error en los datos de ingreso"
+	}
+
+fin

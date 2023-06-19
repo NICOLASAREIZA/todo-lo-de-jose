@@ -1,0 +1,15 @@
+cadena [25] iniciales,altura
+
+inicio
+
+escriba "Bienvenido"
+llamar nueva_linea
+escriba "Por favor, ingresa las iniciales de tu nombre "
+lea iniciales
+llamar nueva_linea
+escriba "Por favor, ingresa tu estatura "
+lea altura
+llamar nueva_linea
+escriba "Las iniciales de tu nombre son: ",iniciales," ","y tu estatura es de: ",altura
+
+fin

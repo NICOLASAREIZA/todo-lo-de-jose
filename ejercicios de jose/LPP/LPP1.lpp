@@ -1,0 +1,12 @@
+Entero numero1
+
+inicio
+
+escriba "Bienvenido"
+llamar nueva_linea
+escriba "Escribe aqui el numero entero "
+lea numero1
+llamar nueva_linea
+escriba "Has introducido el numero ",numero1," ",",gracias"
+
+fin

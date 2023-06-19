@@ -1,0 +1,21 @@
+real radio, perimetro,area,volumen,pi
+
+inicio
+
+escriba "Bienvenido al calculo"
+llamar nueva_linea
+escriba "Escribe el radio: "
+lea radio
+llamar nueva_linea
+pi <- 3.1416
+perimetro <- 2*pi*radio
+area <- pi*radio*radio
+volumen <- (4*pi*radio*radio*radio)/3
+llamar nueva_linea
+escriba "El perimetro de la circunferencia es: ",perimetro
+llamar nueva_linea
+escriba "El area del circulo es de: ",area
+llamar nueva_linea
+escriba "El volumen de la esfera es de: ",volumen
+
+fin

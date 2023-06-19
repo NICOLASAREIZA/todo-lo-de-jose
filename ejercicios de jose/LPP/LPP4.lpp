@@ -1,0 +1,17 @@
+entero precio, descuento, total
+
+inicio
+
+escriba "Bienvenido al calculo"
+llamar nueva_linea
+escriba "Escribe el precio: "
+lea precio
+llamar nueva_linea
+escriba "Escribe el porcentaje: "
+lea descuento
+llamar nueva_linea
+total <- precio-(precio*descuento)/100
+escriba "El precio final es de: ",total," ","con el descuento de: ",descuento
+
+
+fin

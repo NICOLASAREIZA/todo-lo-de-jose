@@ -1,0 +1,12 @@
+cadena [25] edad
+
+inicio
+
+escriba "Bienvenido"
+llamar nueva_linea
+Escriba "Escribe tu edad "
+lea edad
+llamar nueva_linea
+escriba "Tu edad es de ",edad," ",",gracias"
+
+fin
