@@ -1,0 +1,17 @@
+entero res1,res2,calculo
+
+inicio
+
+escriba "Bienvenido"
+llamar nueva_linea
+escriba "Ecribe primer resistencia: "
+lea res1
+llamar nueva_linea
+escriba "Escribe segunda resistencia: "
+lea res2
+llamar nueva_linea
+calculo <- (res1*res2)/(res1+res2)
+llamar nueva_linea
+escriba "El resultado equivalente en paralelo es: ",calculo
+
+fin

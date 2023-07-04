@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+  text-align: center;
+  font-size: 25px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  margin: auto;
+}
+
+/* Estilos de las etiquetas de los campos */
+label {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Estilos de los campos de entrada */
+input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 80px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+/* Estilo del botón de enviar */
+button {
+  padding: 10px 20px;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilo del botón de enviar al pasar el mouse */
+button:hover {
+  background-color: #0080ff;
+}
+
+/* Estilo del vínculo de continuar */
+a {
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Estilo del vínculo de continuar al pasar el mouse */
+a:hover {
+  color: #0080ff;
+}

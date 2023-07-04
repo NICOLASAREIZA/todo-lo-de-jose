@@ -1,0 +1,15 @@
+entero pesos,cambio
+
+inicio
+
+escriba "Bienvenido a la caja de cambio"
+llamar nueva_linea
+escriba "Escribe los pesos a calcular: "
+lea pesos
+llamar nueva_linea
+cambio <- pesos/4444
+llamar nueva_linea
+escriba "el cambio es de: ",cambio
+
+
+fin

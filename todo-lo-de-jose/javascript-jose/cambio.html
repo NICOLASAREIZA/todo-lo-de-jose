@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cambio.css">
+    <script src="./javascript/cambio.js"></script>
+    <title>MONEY FAST</title>
+</head>
+<body>
+    <h1>MONEY FAST</h1>
+	<label>Seleccione la moneda: </label>
+	<select id="moneda" onchange="calcular()">
+		<option value="dolar">Dólar</option>
+		<option value="euro">Euro</option>
+		<option value="yuan">Yuan</option>
+	</select>
+	<br><br>
+	<label>Cantidad: </label>
+	<input type="number" id="cantidad" onchange="calcular()" min="0">
+	<br><br>
+	<label>Convertir a: </label>
+	<select id="convertir_a" onchange="calcular()">
+		<option value="peso_colombiano">Peso Colombiano</option>
+	</select>
+	<br><br>
+	<button onclick="calcular_dolar()">Dólar con 10%</button>
+	<button onclick="calcular_euro()">Euro con 12%</button>
+	<button onclick="calcular_yuan()">Yuan con 14%</button>
+	<br><br>
+	<label>Total: </label>
+	<input type="text" id="resultado" readonly>
+	<br><br>
+    <a href="./index.html">Volver al Inicio</a>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <link rel="stylesheet" href="css/ficha.css">
+    <script defer src="javascript/ficha.js"></script>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>LinkCafé</h1>
+    <p>Caracteristicas del producto</p>
+    <input type="text" id="nombre" placeholder="Nombre"><br><br>
+    <input type="text" id="sistema" placeholder="Tipo de sistema"><br><br>
+
+    <p>Descripción del producto</p>
+    <input type="text" id="descripción" placeholder="Descripción del producto"><br><br>
+    <input type="text" id="objetivo" placeholder="Objetivo del producto"><br><br>
+
+    <p>Requerimientos del producto</p>
+    <p>Requisitos del Servidor</p>
+    <input type="text" id="requerimientos1" placeholder="Requerimientos fisicos minimos"><br><br>
+    <input type="text" id="recomendaciones1" placeholder="Recomendaciones"><br><br>
+
+    <p>Requerimientos del cliente</p>
+    <input type="text" id="requisitos" placeholder="Requisitos fisicos minimos"><br><br>
+    <input type="text" id="recomendaciones2" placeholder="Recomendaciones"><br><br>
+
+    <p>Requerimientos</p>
+    <input type="text" id="requerimientos2" placeholder="Funciones del sistema"><br><br>
+
+    <p>Fecha</p>
+    <input type="date" id="fecha" placeholder="Fecha"><br><br>
+    
+    <button onclick="almacenarData()"><a href="./ficha2.html">Guardar</a></button> <button id="reset">Resetear Local Storage</button>
+
+    
+</body>
+</html>

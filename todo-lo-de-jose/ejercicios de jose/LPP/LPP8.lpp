@@ -1,0 +1,21 @@
+entero dias,horas,minutos,segundos
+
+inicio
+
+escriba "Bienvenido"
+llamar nueva_linea
+escriba "Escribe los dias: "
+lea dias
+llamar nueva_linea
+escriba "Escriba las horas: "
+lea horas
+llamar nueva_linea
+escriba "Escriba los mintutos: "
+lea minutos
+llamar nueva_linea
+segundos <- (dias*86400)+(horas*3600)+(minutos*60)
+llamar nueva_linea
+escriba "El total de segundos es de: ",segundos
+
+
+fin

@@ -1,0 +1,21 @@
+entero dias,horas,minutos,segundos
+
+inicio
+
+escriba "Bienvenido"
+llamar nueva_linea
+escriba "Escribe la cantidad de segundos a calcular: "
+lea segundos
+llamar nueva_linea
+dias <- segundos/86400
+horas <- segundos/3600
+minutos <- segundos/60
+llamar nueva_linea
+escriba "La cantidad de dias es de: ",dias
+llamar nueva_linea
+escriba "La cantidad de horas es de: ", horas
+llamar nueva_linea
+escriba "La cantidad de minutos es de: ",minutos
+
+
+fin
